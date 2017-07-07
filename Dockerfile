@@ -18,9 +18,9 @@ RUN jupyter-nbextension install rise --py --sys-prefix
 
 RUN jupyter-nbextension enable rise --py --sys-prefix
 
-RUN jupyter notebook --generate-config
+RUN jupyter notebook --generate-config --allow-root
 
-RUN echo -e "\n\n# Adding inline plotting\n#c.InteractiveShellApp.matplotlib = 'inline'\nc.InteractiveShellApp.matplotlib = 'notebook'" >> ~/.jupyter/jupyter_notebook_config.py
+RUN echo "\n\n# Adding inline plotting\nc.InteractiveShellApp.matplotlib = 'inline'\n#c.InteractiveShellApp.matplotlib = 'notebook'" >> ~/.jupyter/jupyter_notebook_config.py
 
 EXPOSE 8888
 CMD ["jupyter", "notebook","--allow-root","--NotebookApp.ip='*'","--NotebookApp.open_browser=False"]
