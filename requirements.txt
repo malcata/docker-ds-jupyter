@@ -1,0 +1,23 @@
+## Notebook
+jupyter
+
+## Data manipulation
+numpy        # Array computing
+pandas       # Data structures for data analysis, time series, and statistics
+
+## Overall machine learning
+scikit-learn # Machine learning and data mining
+mlxtend      # Machine Learning Library Extensions
+
+## Algebra and Mathematics
+sympy        # Computer algebra system (CAS) in Python
+
+## Natural Language Processing
+nltk         # Natural Language Toolkit
+spacy        # Industrial-strength Natural Language Processing (NLP) in Python 
+
+## Visualization
+seaborn      # Statistical data visualization
+matplotlib   # Comprehensive library for creating static, animated, and interactive visualizations
+graphviz     # Open source graph visualization software
+rise         # Reveal.js - Jupyter Slideshow Extension
