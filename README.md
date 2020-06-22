@@ -1,4 +1,7 @@
 ## docker-ds-jupyter
+
+[![License: MIT](https://img.shields.io/github/license/malcata/docker-ds-jupyter)](https://opensource.org/licenses/MIT) [![docker build](https://img.shields.io/docker/cloud/build/malcata/docker-ds-jupyter)](https://hub.docker.com/repository/docker/malcata/docker-ds-jupyter) [![docker build](https://img.shields.io/docker/cloud/automated/malcata/docker-ds-jupyter)](https://hub.docker.com/repository/docker/malcata/docker-ds-jupyter)
+
 A baseline container for data science with python and jupyter
 
 *For development use only. Always assumes latest version available.*
